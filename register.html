@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Reels Shorts">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Reels Shorts</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="description" content="Reels Shorts">
+    <meta name="keywords" content="Reels Shorts">
+    <link rel="icon" href="assets/images/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/main-style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="log-in-page">
+    <div class="container">
+        <div class="logo-col">
+            <img src="./assets/images/logo.png" alt="logo" loading="lazy">
+        </div>
+        <div class="form-container">
+            <div class="form-title text-center">
+                <h2 class="mb-4!">Register</h2>
+                <p>Manage your OTT platform with ease!</p>
+            </div>
+            <form class="flex flex-col gap-3">
+                <!-- First Name -->
+                <div class="login-form-dt">
+                    <label for="first-name" class="input-label mb-2!">First Name</label>
+                    <div class="input-wrapper flex items-center gap-2">
+                        <span class="icon">
+                            <!-- User Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21"
+                                fill="none">
+                                <path
+                                    d="M10 10.5C12.3012 10.5 14.1667 8.63452 14.1667 6.33333C14.1667 4.03215 12.3012 2.16666 10 2.16666C7.69881 2.16666 5.83333 4.03215 5.83333 6.33333C5.83333 8.63452 7.69881 10.5 10 10.5ZM10 12.1667C7.23952 12.1667 2.5 13.5521 2.5 16.3333V17.1667H17.5V16.3333C17.5 13.5521 12.7605 12.1667 10 12.1667Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                        <input type="text" id="first-name" placeholder="Jessica" required />
+                    </div>
+                </div>
+                <!-- Last Name -->
+                <div class="login-form-dt">
+                    <label for="last-name" class="input-label mb-2!">Last Name</label>
+                    <div class="input-wrapper flex items-center gap-2">
+                        <span class="icon">
+                            <!-- User Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21"
+                                fill="none">
+                                <path
+                                    d="M10 10.5C12.3012 10.5 14.1667 8.63452 14.1667 6.33333C14.1667 4.03215 12.3012 2.16666 10 2.16666C7.69881 2.16666 5.83333 4.03215 5.83333 6.33333C5.83333 8.63452 7.69881 10.5 10 10.5ZM10 12.1667C7.23952 12.1667 2.5 13.5521 2.5 16.3333V17.1667H17.5V16.3333C17.5 13.5521 12.7605 12.1667 10 12.1667Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                        <input type="text" id="last-name" placeholder="Williams" required />
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="login-form-dt">
+                    <label for="email" class="input-label mb-2!">Email</label>
+                    <div class="input-wrapper flex items-center gap-2">
+                        <span class="icon">
+                            <!-- Email Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21"
+                                fill="none">
+                                <path
+                                    d="M18.3307 5.5001C18.3307 4.58343 17.5807 3.83344 16.6641 3.83344H3.33073C2.41406 3.83344 1.66406 4.58343 1.66406 5.5001V15.5001C1.66406 16.4168 2.41406 17.1668 3.33073 17.1668H16.6641C17.5807 17.1668 18.3307 16.4168 18.3307 15.5001V5.5001ZM16.6641 5.5001L9.9974 9.65843L3.33073 5.5001H16.6641ZM16.6641 15.5001H3.33073V7.16677L9.9974 11.3334L16.6641 7.16677V15.5001Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                        <input type="email" id="email" placeholder="Email address" required />
+                    </div>
+                </div>
+                <!-- Contact Number -->
+                <div class="login-form-dt">
+                    <label for="contact-number" class="input-label mb-2!">Contact Number</label>
+                    <div class="input-wrapper contact-input flex items-center gap-2">
+                        <div class="nice-select list" tabindex="0">
+                            <span class="current flex items-center justify-between">
+                                <div class="card-dtl flex items-center gap-2">
+                                    <img src="./assets/images/ind.png" alt="payment-image" loading="lazy">
+                                    +91
+                                </div>
+                            </span>
+                            <ul class="list">
+                                <li class="option flex items-center justify-between">
+                                    <div class="card-dtl flex items-center gap-2">
+                                        <img src="./assets/images/eng.png" alt="payment-image" loading="lazy">
+                                        +41
+                                    </div>
+                                </li>
+                                <li class="option flex items-center justify-between">
+                                    <div class="card-dtl flex items-center gap-2">
+                                        <img src="./assets/images/uk.png" alt="payment-image" loading="lazy">
+                                        +78
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Phone Input -->
+                        <input type="tel" id="contact-number" name="contact-number" placeholder="Enter Number"
+                            required />
+                    </div>
+                </div>
+                <!-- Gender Selection -->
+                <div class="gender-group">
+                    <label class="form-label text-light mb-2!">Gender</label>
+                    <div class="flex gap-2 sm:gap-3">
+                        <!-- Male -->
+                        <label class="gender-option">
+                            <input type="radio" name="gender" value="male">
+                            <span class="custom-radio"></span>
+                            <span class="label-text">Male</span>
+                        </label>
+
+                        <!-- Female -->
+                        <label class="gender-option">
+                            <input type="radio" name="gender" value="female" checked>
+                            <span class="custom-radio"></span>
+                            <span class="label-text">Female</span>
+                        </label>
+
+                        <!-- Other -->
+                        <label class="gender-option">
+                            <input type="radio" name="gender" value="other">
+                            <span class="custom-radio"></span>
+                            <span class="label-text">Other</span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="mt-2! btn submit-btn">Sign In</button>
+            </form>
+            <p class="signup-text d-block text-center mt-3!">
+                Already have an account? <a href="login.html">Log In</a>
+            </p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
